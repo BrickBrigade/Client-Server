@@ -27,6 +27,6 @@ function listening(){
 
 };
 
-app.get('/all', function (req, res) {
+app.get('/', function (req, res) {
 	res.send("'hello world'");
 })
