@@ -8,7 +8,7 @@ const postData = async ( url = '', data = {})=>{
         'Content-Type': 'application/json',
     },
     body: JSON.stringify(data), // body data type must match "Content-Type" header        
-  });
+  	});
 
     try {
       const newData = await response.json();
